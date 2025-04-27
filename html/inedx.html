@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+
+
+<body>
+    <!-- head section -->
+    <header class="active">
+        <a href="#" class="logo">Cfuna.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Resume</a>
+            <a href="#">Portfolio</a>
+            <a href="#">contact</a>
+        </nav>
+    </header>
+
+
+    <!-- bars background -->
+    <div class="bars-box active">
+        <div class="bar" style="--1:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+
+    <!-- home section -->
+    <section class="home active">
+        <div class="home-detail">
+            <h1>Abel Cfuna</h1>
+            <h2>I'm a 
+                <span style="--i:4;" data-text="Coder">Coder</span>
+                <span style="--i:3;" data-text="YouTuber">YouTuber</span>
+                <span style="--i:2;" data-text="Blogger">Blogger</span>
+                <span style="--i:1;" data-text="Designer">Designer</span>
+            </h2>
+            <p>
+                Hi, I'm Abel Sifuna, a passionate tech enthusiast with a strong interest in 
+                [, blockchain, software development, community building]. I enjoy turning 
+                innovative ideas into impactful solutions, especially in areas like 
+                Web3 Development. Currently, I'm a student at plp, and I’m always eager 
+                to learn, build, and collaborate with like-minded people.
+            </p>
+
+            <div class="btn-sci">
+                <a href="/Updated_CV_with_Certification.pdf" class="btn" download="">Download CV</a>
+                <div class="sci">
+                    <a href="https://wa.me/+254795160491" title="WhatsApp" target="_blank" rel="noopener"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://github.com/Cfuna22" title="GitHub" target="_blank" rel="noopener"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3ByPGYwReWRkiAx8nwk6lBag%3D%3D" title="Linkedin" target="_blank" rel="noopener"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100087299478641" title="Facebook" target="_blank" rel="noopener"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://canary.discord.com/channels/@me" title="Discord" target="_blank" rel="noopener"><i class='bx bxl-discord-alt' ></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="/images/Abel.png" alt="Image of the author">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="services">
+        <h2 class="heading">my <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-code-alt'></i>
+                    <a href="https://github.com/Cfuna22" title="Go Back"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Web Development</h3>
+                <p>
+                    We build a web project using HTML, CSS, and JavaScript to enhance my 
+                    front-end skills, focusing on responsive design, interactivity, and hands-on 
+                    experience with core web technologies.
+                </p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bxs-paint'></i>
+                    <a href="https://github.com/Cfuna22" title="Go Back"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>
+                    we also design  user-friendly interface focusing on clean layout, intuitive navigation, 
+                    and responsive design principles to enhance user experience, using tools like Figma 
+                    and applying core UI/UX concepts.
+                </p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-palette'></i>
+                    <a href="https://github.com/Cfuna22" title="Go Back"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Graphic Design</h3>
+                <p>
+                    We create visually engaging designs using tools like Photoshop and Canva, 
+                    focusing on color theory, typography, and layout to effectively communicate messages 
+                    through posters, social media graphics, and branding elements.
+                </p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-trending-up'></i>
+                    <a href="https://github.com/Cfuna22" title="Go Back"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>SEO</h3>
+                <p>
+                    We work on improving website visibility through on-page SEO, keyword research, and content 
+                    optimization, focusing on increasing organic traffic and enhancing search engine rankings 
+                    using tools like Google Analytics and SEMrush.
+                </p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-slideshow'></i>
+                    <a href="https://github.com/Cfuna22" title="Go Back"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Video Editing</h3>
+                <p>
+                    We edit videos using tools like Adobe Premiere Pro and CapCut, focusing on smooth transitions, 
+                    sound syncing, and storytelling to create engaging content for social media, presentations, 
+                    and personal projects.
+                </p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-camera'></i>
+                    <a href="https://github.com/Cfuna22" title="Go Back"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Photography</h3>
+                <p>
+                    We've captured and edited photographs focusing on composition, lighting, and storytelling. 
+                    We explored various styles including portraits, landscapes, and candid shots, enhancing each 
+                    image using tools like Lightroom and Snapseed.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- resume section -->
+    <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire Me?</h2>
+                <p class="desc">
+                    I bring a diverse skill set, from backend and frontend development to UI/UX design and 
+                    blockchain expertise. I deliver efficient, user-centric solutions with a focus on innovation 
+                    and problem-solving.
+                </p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+
+            <div class="resume-box">
+                <div class="resume-detail experience active">
+                    <h2 class="heading">My <span>Experience</span></h2>
+                    <p class="desc">
+                        I have hands-on experience in backend development, working on various projects including 
+                        YouTube integrations, optimizing performance, and managing servers. My expertise spans 
+                        across coding, problem-solving, and project management.
+                    </p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2023 - Present</p>
+                            <h3>Frontend Developer</h3>
+                            <p class="company">PLP ACADEMY</p>
+                            <p>
+                                Designed and developed user interfaces for PLP-Academy, focusing on responsive design, 
+                                usability, and seamless user experiences.
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2022 - 2023</p>
+                            <h3>Full Stack Developer</h3>
+                            <p class="company">GOOGLE</p>
+                            <p>
+                                Developed full-stack applications at Google, focusing on both frontend and backend 
+                                integration, ensuring seamless functionality.
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2021 - 2022</p>
+                            <h3>Backend Developer</h3>
+                            <p class="company">YOUTUBE</p>
+                            <p>
+                                Developed backend solutions for YouTube projects, focusing on API integration, performance 
+                                optimization, and server management.
+                                
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">202o - 2021</p>
+                            <h3>Frontend Developer</h3>
+                            <p class="company">DISCORD</p>
+                            <p>
+                                Created engaging user interfaces for Discord, optimizing user experience and implementing 
+                                interactive features.
+                                
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2019 - 2020</p>
+                            <h3>UI/UX Designer</h3>
+                            <p class="company">WHATSAPP</p>
+                            <p>
+                                Designed intuitive interfaces and optimized user experience for WhatsApp, enhancing 
+                                usability and streamlining communication features."
+                                
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2019 - 2020</p>
+                            <h3>Block Chain Developer</h3>
+                            <p class="company">ETHERSCAN</p>
+                            <p>
+                                Developed and deployed blockchain solutions on Etherscan, focusing on smart contracts and dApps.
+                                
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="resume-detail education">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <p class="desc">
+                        "I’ve completed courses in programming, web development, and blockchain. My education has 
+                        equipped me with practical skills, strong problem-solving abilities, and a solid foundation 
+                        in computer science principles.
+                    </p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>programming Course</h3>
+                            <p class="company">Online Course</p>
+                            <p>
+                                Completed a programming course covering core concepts, problem-solving, and building 
+                                real-world applications using multiple languages.
+                            </p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2022 - 2023</p>
+                            <h3>Web Development BootCamp</h3>
+                            <p class="company">Online Course Platform</p>
+                            <p>
+                                Learned full-stack web development, building responsive websites and dynamic applications.
+                            </p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2020</p>
+                            <h3>Web Development</h3>
+                            <p class="company">Online Course</p>
+                            <p>
+                                Earned certification in web development, mastering frontend and backend technologies 
+                                effectively.
+                            </p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2017 - 2018</p>
+                            <h3>Computer Science</h3>
+                            <p class="company">Harvard University</p>
+                            <p>
+                                Studied computer science fundamentals including algorithms, data structures, databases, 
+                                and software engineering principles.
+                            </p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2015 - 2018</p>
+                            <h3>Master of IT</h3>
+                            <p class="company">Online Course</p>
+                            <p>
+                                Completed Master’s in IT, focusing on advanced systems, cybersecurity, software development, 
+                                and technology management skills.
+                            </p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2012 - 2018</p>
+                            <h3>Data Science</h3>
+                            <p class="company">Online Course</p>
+                            <p>
+                                Earned a Bachelor of Science, building strong analytical, technical, and research-oriented 
+                                academic foundations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class="heading">My <span>Skills</span></h2>
+                    <p class="desc">
+                        Skilled in backend and frontend development, UI/UX design, blockchain, SEO, video editing, 
+                        photography, and graphic design. Proficient with tools like JavaScript, HTML/CSS, Figma, 
+                        Adobe Suite, and various development frameworks.
+                    </p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bx bxl-html5'></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-css3'></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-javascript'></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-react'></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <!-- <i class='bx bxl-vuejs'></i> -->
+                            <img src="https://simpleicons.org/icons/solidity.svg" alt="Solidity" width="70" height="70"/>
+                            <span>solidity</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-tailwind-css'></i>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-nodejs'></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-mongodb'></i>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail about">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p class="desc">
+                        I’m a passionate and versatile tech enthusiast who loves building creative, impactful digital 
+                        solutions. I enjoy learning new technologies, solving real-world problems, and collaborating 
+                        on projects that make a difference.
+                    </p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p> Name <span>Abel Sifuna</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p> Gender <span>Male</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Age <span>20 years</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Status <span>Single</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>City <span>Nakuru</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p> Nationality<span>Kenyan</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Experience <span>2+</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Full Time <span>Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Freelance <span>Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone <span>+254 795160491</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email <span>abelsifuna@gmail.com</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Language <span>English, Swahili</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <p class="numb">01</p>
+                    <h3>Frontend Project</h3>
+                    <p>
+                        Developed a responsive frontend project using HTML, CSS, and JavaScript. Focused on clean UI 
+                        design, interactive features, and mobile-first responsiveness. Implemented modern design 
+                        principles to enhance user experience and ensure smooth navigation across devices.
+                    </p>
+                    <div class="tech">
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">02</p>
+                    <h3>Full stack Project</h3>
+                    <p>
+                        Built a full-stack web application using MongoDB, ExpressJS, React, and Node.js. Developed 
+                        dynamic user interfaces, implemented RESTful APIs, and managed backend operations, including 
+                        database integration and authentication for a seamless and scalable user experience.
+                    </p>
+                    <div class="tech">
+                        <p>MongoDB, Express.js, React.js Node.js</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+            
+
+                <div class="portfolio-detail">
+                    <p class="numb">03</p>
+                    <h3>Frontend Project</h3>
+                    <p>
+                        Created a visually appealing and responsive frontend project using React.js and Tailwind CSS. 
+                        Focused on modular component design, dynamic UI elements, and seamless user interactions, 
+                        while leveraging Tailwind's utility-first approach for fast styling and layout optimization.
+                    </p>
+                    <div class="tech">
+                        <p>React.js, Tailwind CSS</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+                
+
+                <div class="portfolio-detail">
+                    <p class="numb">04</p>
+                    <h3>Full stack Project</h3>
+                    <p>
+                        Developed a full-stack web application using HTML5, CSS3, and JavaScript. Focused on crafting 
+                        responsive front-end interfaces while integrating with a dynamic backend. Emphasized clean 
+                        code, user interaction, and performance optimization across both front and back ends.
+                    </p>
+                    <div class="tech">
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+                
+
+                <div class="portfolio-detail">
+                    <p class="numb">05</p>
+                    <h3>BlockChain Project</h3>
+                    <p>
+                        Built a decentralized application using Solidity for smart contract development and Tailwind CSS 
+                        for front-end design. Integrated blockchain functionality with intuitive user interfaces, 
+                        ensuring secure transactions, scalability, and seamless interaction between the smart contracts 
+                        and front-end.
+                    </p>
+                    <div class="tech">
+                        <p>solidity Tailwind CSS</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+                
+
+                <div class="portfolio-detail">
+                    <p class="numb">06</p>
+                    <h3>Full Stack Project</h3>
+                    <p>
+                        Developed a full-stack decentralized application using MongoDB, Express.js, Node.js, and 
+                        Solidity. Integrated smart contracts with the backend, utilizing MongoDB for data storage and 
+                        Express.js for API management, creating a secure, scalable platform with blockchain functionality.
+                    </p>
+                    <div class="tech">
+                        <p>MongoDB, Express.js, solidity, Node.js</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="portfolio-box">
+                <!-- images carousel -->
+                <div class="portfolio-carousel">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="/images/portfolio1.jpg" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="/images/portfolio2.jpg" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="/images/portfolio3.jpg" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="/images/portfolio4.jpg" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="/images/portfolio5.jpg" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="/images/portfolio6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <button class="arrow-left disabled" title="Previous Slide"><i class="bx bx-chevron-left"></i></button>
+                    <button class="arrow-right" title="Next Slide"><i class="bx bx-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's work Together</h2>
+                <p class="desc">
+                    Let’s collaborate and bring your ideas to life! With a passion for problem-solving and innovation, 
+                    I’m eager to work together and create impactful, creative solutions. Whether it’s developing 
+                    new technologies, designing sleek interfaces, or building a brand, I’m excited to help make 
+                    your vision a reality.
+                </p>
+                <div class="contact-detail">
+                    <i class='bx bxs-phone'></i>
+                    <div class="detail">
+                        <p>phone</p>
+                        <p>(+254) 795 160 491</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-envelope'></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>abelsifuna@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-phone'></i>
+                    <div class="detail">
+                        <p>Address</p>
+                        <p>3456 state raffle street, Nakuru</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <form action="">
+                    <h2 class="heading">contact <span>Me!</span></h2>
+                    <div class="field-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="tel" placeholder="Phone Number" required>
+                        <input type="text" placeholder="Email Subject" required>
+                        <textarea name="" id="" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-detail">
+                <i class='bx bxs-map'></i>
+                <div class="detail">
+                    <p style="font-size: 1.6rem; margin: 1rem 0 2.5rem;">map</p>
+                    <div id="map" style="height: 500px; width: 300px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script>
+    let map = L.map('map').setView([-0.3031, 36.0800], 13); // Coordinates and zoom level
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    // Add a marker to the map
+L.marker([-0.3031, 36.0800]).addTo(map)
+    .bindPopup('Nakuru, Kenya')
+    .openPopup();
+
+
+</script>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
