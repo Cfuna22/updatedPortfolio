@@ -19,6 +19,7 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 
 ## Installation
 
+
 To run the portfolio locally, follow these steps:
 
 1. **Clone the repository:**
